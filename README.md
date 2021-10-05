@@ -1,17 +1,17 @@
-# A web app to search pokemon Shakespearean description
+# A Responsive web app to show the Shakespearean description of a pokemon
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# Backend is required and the backend server used is http://localhost:5000/
+# Backend server used is http://localhost:5000/
 
-Checkout the backend server at
+Checkout the backend server at [https://github.com/ManoharNuli/pokemon-web-api](https://github.com/ManoharNuli/pokemon-web-api)
 
 Pokemon names used for search are taken from the API:
 [https://pokeapi.co/api/v2/pokemon-species](https://pokeapi.co/api/v2/pokemon-species)
 
 # Steps to download & build locally
 
-## 1) Clone the repository, install node packages and verify routes locally
+## 1) Clone the repository, install node packages and verify app locally
 
 ```
 //on local
@@ -38,3 +38,18 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+## Test Execution Report
+
+![TestExecutionReport](/screenshots/PokemonSearchTestSnapshot.PNG)
+
+## App Screenshots
+
+![Screenshot](/screenshots/PokemonSearch.PNG)
+
+![Screenshot](/screenshots/PokemonList.PNG)
+
+![Screenshot](/screenshots/PokemonDescription.PNG)
+
+![Screenshot](/screenshots/PokemonSearchError.PNG)
+
