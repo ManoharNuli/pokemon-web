@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+body {
+	padding: 0;
+	margin: 0;
+}
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: 'Nunito', sans-serif;
+	background: #ffda70;
+}
+
+h1 {
+	margin: 1em;
+	text-align: center;
+	color: blueviolet;
+}
+
+.description {
+	width: 380px;
+	height: 150px;
+	display: grid;
+	place-items: center;
+	margin-top: 1.5em;
+	padding: 1em;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.error {
+	margin-top: 1.5em;
+	color: palevioletred;
+}
+
+.searchInputs {
+	display: flex;
+	position: relative;
+}
+
+.search input {
+	background-color: white;
+	border: 0;
+	border-radius: 2px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	font-size: 18px;
+	padding: 15px;
+	height: 30px;
+	width: 300px;
+}
+
+.searchIcon {
+	height: 60px;
+	width: 50px;
+	background-color: white;
+	display: grid;
+	place-items: center;
+}
+
+input:focus {
+	outline: none;
+}
+.searchIcon svg {
+	font-size: 35px;
+}
+
+.dataResult {
+	margin-top: 5px;
+	width: 380px;
+	height: 200px;
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	overflow: hidden;
+	overflow-y: auto;
+	position: absolute;
+}
+
+.dataResult::-webkit-scrollbar {
+	display: none;
+}
+
+.dataResult .dataItem {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	color: black;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	padding: 0;
+	margin: 0;
+}
+li:hover {
+	background-color: lightgrey;
+	cursor: pointer;
+}
+li p {
+	margin-left: 10px;
+}
+#clearBtn {
+	cursor: pointer;
+}
